@@ -60,3 +60,9 @@ h3 {
 .imagens img{
   margin: 50px;
 }
+
+@media only screen and (max-width: 425px) {
+  #primeiros-3-colocados {
+    width: 250px
+  }
+}
