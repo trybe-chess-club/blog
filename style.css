@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 5px 50px;
+  align-items: center;
+  background-color: white;
+  box-shadow: 1px 1px 5px black;
+}
+
+header img {
+  width: 60px;
+}
+
+.frase {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 170px;
+  margin-bottom: 50px;
+}
+
+h3 {
+  margin: 50px 0;
+}
+
+#secao-de-noticias {
+  margin-left: 30px;
+}
