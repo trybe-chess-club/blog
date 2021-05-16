@@ -17,8 +17,6 @@ header {
   box-shadow: 1px 1px 5px black;
 }
 
-
-
 header img {
   width: 60px;
 }
@@ -62,7 +60,10 @@ h3 {
 }
 
 @media only screen and (max-width: 425px) {
-  #primeiros-3-colocados {
-    width: 250px
+  .primeiros-colocados {
+    width: 300px
+  }
+  .frase {
+    height: 230px;
   }
 }
